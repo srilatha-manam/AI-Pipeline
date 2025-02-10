@@ -1,0 +1,14 @@
+supabase_database:
+  SUPABASE_URL: ""
+  SUPABASE_KEY: ""
+  
+localdb:
+  DB_CONFIG:
+    dbname: ""
+    user: ""
+    password: ""
+    host: ""
+    port: 
+
+huggingface:
+  HUGGINGFACE_TOKEN: 
