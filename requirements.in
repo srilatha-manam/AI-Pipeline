@@ -1,0 +1,24 @@
+supabase       # Supabase Python client
+pandas           # Data processing
+psycopg2        # PostgreSQL database driver for Supabase
+redis            # Caching purposes
+faiss-cpu        # Similarity search
+boto3           # AWS SDK for Python
+sentence-transformers  # Text embedding
+torch        # Deep learning (Make sure this version is compatible with your hardware)
+torchvision    # Computer vision (compatible with `torch==1.10.0`)
+uvicorn        # ASGI server for FastAPI
+fastapi         # Web framework for APIs
+celery         # Distributed task queue
+numpy  
+optuna   
+faiss-cpu    #use faiss-gpu for GPU support
+rank-bm25
+
+
+#pip install pip-tools
+#use command for this file  pip-compile requirements.in
+#pip install -r requirements.txt
+
+
+
